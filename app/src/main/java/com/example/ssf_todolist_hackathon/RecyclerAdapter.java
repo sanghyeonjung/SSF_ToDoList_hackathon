@@ -45,7 +45,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ItemVi
         }
         void onBind(Data data)
         {
-            checkBox1.setSelected(data.isCheck());
+            checkBox1.setChecked(data.isCheck());
             editText1.setText(data.getText());
         }
     }

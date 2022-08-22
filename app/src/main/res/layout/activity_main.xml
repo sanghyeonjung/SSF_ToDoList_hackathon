@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     android:background="@color/SSF_lightgray"
     tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -25,7 +31,6 @@
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-
     <View
         android:layout_width="1dp"
         android:layout_height="17dp"
@@ -39,6 +44,7 @@
         android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:background="@color/SSF_white"
         app:itemIconSize="32dp"
         app:itemIconTint="@drawable/item_selecter"
         app:itemTextColor="@drawable/item_selecter"

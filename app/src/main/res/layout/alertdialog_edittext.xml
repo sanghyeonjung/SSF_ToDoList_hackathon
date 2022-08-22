@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="366dp"
+    android:layout_height="203dp"
+    android:background="@drawable/pop_radius"
+    android:backgroundTint="@color/SSF_white">
+
+    <TextView
+        android:id="@+id/pop_TitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/suit_semibold"
+        android:text="Add The To-do List"
+        android:textColor="@color/SSF_black"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="326dp"
+        android:layout_height="59dp"
+        android:background="@drawable/pop_radius"
+        app:layout_constraintTop_toBottomOf="@id/pop_TitleTextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="12dp"
+        android:hint="Typing the text"
+        android:backgroundTint="#f4f4f4"
+        android:paddingLeft="14dp"
+        android:textColorHint="#bbbbbb" />
+</androidx.constraintlayout.widget.ConstraintLayout>
